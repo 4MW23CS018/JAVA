@@ -3,18 +3,19 @@ public class J4 {
         String  s1,s2;
         int i;
         s1="ABCDE";
-       for(i=0;i<6;i++)
+        int len=s1.length();
+       for(i=0;i<len;i++)
        {
-            for(int j=0;j<6-1-i;j++)
+            for(int j=0;j<len-1-i;j++)
             {
                 System.out.print(" ");
             }
             s2=s1.substring(0,i);
             System.out.println(" "+s2);
        }
-       for(i=4;i>=0;i--)
+       for(i=len;i>=0;i--)
        {
-        for(int j=i;j<6;j++)
+        for(int j=i;j<len;j++)
        {
            System.out.print(" ");
        }
