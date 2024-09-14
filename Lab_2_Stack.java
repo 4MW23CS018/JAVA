@@ -38,7 +38,7 @@ class Stack{
     }
     }
 
-public class Lab_2 {
+public class Lab_2_Stack {
     public static void main(String[] args){
         int ch;
         Stack stack1=new Stack();
