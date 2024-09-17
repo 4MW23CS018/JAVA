@@ -23,7 +23,7 @@ class Square extends Shape{
 	public void erase() {
 		System.out.println("Erasing a square");}}
 
-public class Lab_5 {
+public class Lab_5_shape {
 	public static void main(String[] args) {
 		Shape[] shapes=new Shape[3]; //array containing Shape
 		shapes[0]=new Circle();
