@@ -21,7 +21,7 @@ class MyPoint1{
 	public double distance() {
 		return Math.sqrt(x*x + y*y);}}
 
-public class Lab_4 {
+public class Lab_4_Mypoint {
 	public static void main(String[] args) {
 		MyPoint1 point1=new MyPoint1();
 		MyPoint1 point2=new MyPoint1(3,4);
