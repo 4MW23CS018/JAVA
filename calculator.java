@@ -55,6 +55,6 @@ class simpleCalculator {
         System.out.println("Remainder = " + operation.getRemainder());
         System.out.println("Power = " + operation.getPower());
 
-        scanner.close();
+      
     }
 }
