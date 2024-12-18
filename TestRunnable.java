@@ -12,7 +12,7 @@ class MyRunnable implements Runnable{
 		}
 	}
 }
-public class TestThread {
+public class TestRunnable {
 
 	public static void main(String[] args) {
 		System.out.println("Runnable");
