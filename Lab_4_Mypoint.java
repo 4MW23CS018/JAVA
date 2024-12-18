@@ -31,6 +31,3 @@ public class Lab_4_Mypoint {
 		System.out.print(points[0]+","+points[1]+"\n");
 		System.out.println(point1.distance(5,6));
 		System.out.println(point1.distance());}}
-//Note: 2 additional methods will be introduced in next iteration of this program
-//distance(MyPoint1 another)
-//toString()
